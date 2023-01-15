@@ -27,38 +27,39 @@ h1 {
     background-image: url("assets/png/splash-01.png");
     background-size: cover;
     background-attachment: fixed;
-    background-position: 0 -10vh;
+    background-position: -10vh -10vh;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 101vw;
     height: 90vh;
     z-index: 0;
     background-repeat: no-repeat;
 }
 
 .main {
-  margin: 50vh 0 0 20vw;
+  margin: 40vh 0 0 5vw;
   color: #FFFFF3;
   text-shadow: 2px 2px black;
   width: 70vw;
+  text-transform: lowercase;
 }
 .main input {
-  width: 60%;
+  width: 90%;
   height: 7.5vh;
   border-radius: 5px;
   border: 1px solid #FFFFF3;
   background-color: #FFFFF3;
   color: #000000;
-  font-size: 1.5em;
-  padding: 0 1em;
-  margin: 0 0 1em 0;
+  font-size: 1.25em;
+  padding: 0 .5em;
+  margin: 0 0 0em 0;
 }
 .main button {
     border: none;
     outline: none;
-    background: transparent;
-    background-color: var(--clr-accent);
+    background-color: purple;
     padding: 20px 30px;
+    margin: 1em 0 0 0;
     color: white;
     border-radius: 3px;
     cursor: pointer;
