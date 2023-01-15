@@ -1,0 +1,65 @@
+/* Overriding Bootstrap's "container-fluid" class to remove padding.*/
+
+#Landing {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Utilities*/
+
+.max-width-1100 {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Element Styles */
+
+h1 {
+    text-align: center, center;
+    margin: 2em 0;
+    position: relative;
+    top: 60px;
+  }
+
+/* Add CSS styles for the photo and input */
+.splash {
+    position: absolute; /* Position the photo in the top left corner of the page */
+    background-image: url("assets/png/splash-01.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -10vh;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+    z-index: 0;
+    background-repeat: no-repeat;
+}
+
+.main {
+  margin: 50vh 0 0 20vw;
+  color: #FFFFF3;
+  text-shadow: 2px 2px black;
+  width: 70vw;
+}
+.main input {
+  width: 60%;
+  height: 7.5vh;
+  border-radius: 5px;
+  border: 1px solid #FFFFF3;
+  background-color: #FFFFF3;
+  color: #000000;
+  font-size: 1.5em;
+  padding: 0 1em;
+  margin: 0 0 1em 0;
+}
+.main button {
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: var(--clr-accent);
+    padding: 20px 30px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
